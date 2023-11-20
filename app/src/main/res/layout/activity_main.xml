@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C9CD"
+    android:backgroundTint="#B3B8BA"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="313dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SALVAR"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnNuevaFirma"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Limpiar"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnVerFirmas"
+        android:layout_width="313dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#F44336"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Ver Firmas Guardadas"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849">
+
+    </Button>
+
+    <com.example.ejercicio2_4.Lienzo
+        android:id="@+id/lienzo"
+        android:layout_width="339dp"
+        android:layout_height="334dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193">
+
+    </com.example.ejercicio2_4.Lienzo>
+
+    <EditText
+        android:id="@+id/textDescripcion"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Firma Digital"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
